@@ -13,10 +13,10 @@
         let num3=prompt("Give me a third number: ");
         let num4=prompt("Give me a fourth number: ");
 
-        let realnum1=parseInt(num1);
-        let realnum2=parseInt(num2);
-        let realnum3=parseInt(num3);
-        let realnum4=parseInt(num4);
+        let realnum1=parseInt(num1, 10);
+        let realnum2=parseInt(num2, 10);
+        let realnum3=parseInt(num3, 10);
+        let realnum4=parseInt(num4, 10);
 
         if (num1>num2 && num1>num3 && num1>num4) {
             console.log("The largest number is " + num1 + ".");

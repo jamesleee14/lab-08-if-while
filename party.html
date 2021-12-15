@@ -11,7 +11,7 @@
         console.log("Let\'s party!");
         let timeask=prompt("How long \'till the party?: ");
         //capped number to 30 so it isn't too long
-        let time=parseInt(timeask);
+        let time=parseInt(timeask, 10);
         for (time; time<=30 && time>=1; time--) {
             console.log(time);
             if (time<1) {
